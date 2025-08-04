@@ -1,0 +1,14 @@
+{
+  "name": "my-meeting-muse",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Static site - no build needed'",
+    "deploy": "vercel"
+  },
+  "dependencies": {
+    "openai": "^4.0.0",
+    "node-fetch": "^3.3.0",
+    "rate-limiter-flexible": "^2.4.1"
+  }
+}
